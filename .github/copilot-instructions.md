@@ -1,0 +1,11 @@
+This project uses:
+- .NET 10
+- Vertical Slice Architecture
+- FastEndpoints
+- Dapper
+- xUnit
+- FluentValidation
+- Clean Code
+- SOLID
+- Tests must be written within code.
+- Never modify an existing endpoint without updates the corresponding tests.
