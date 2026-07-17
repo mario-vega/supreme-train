@@ -3,20 +3,20 @@
 Properties
 
 - Id
-- Title
 - Description
 - Date
 - Priority
+- Done
 
 ## Rules
 
 A task:
 
 - Always has Id
-- Always has a Title
-- Description is not required.
+- Always has a Description
 - Always contains Date
 - Date will always be the date of creation
+- Done property default value will be false, it only will be modified when the task is updated.
 
 Priority can be:
 

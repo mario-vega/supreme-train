@@ -2,9 +2,11 @@
 
 ## High priority
 
-- Create endpoint CreateTask
-- Create endpoint GetTask
-- Create endpoint SearchTask
+- Create endpoint Add
+- Create endpoint GetTaskById
+- Create endpoint Get
+- Create endpoint Search
+- Create endpoint Update
 
 ## Medium priority
 

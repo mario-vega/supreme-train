@@ -8,7 +8,7 @@ Create a REST API to manage my personal tasks.
 
 The app will allow:
 
-- Create tasks
+- Add tasks
 - View the tasks list
 - Update tasks
 - Delete tasks

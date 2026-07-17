@@ -1,19 +1,17 @@
 # Functional Features
 
-## RF-001 Create task
+## RF-001 Add task
 
-User can create a task
+User can add a new task
 
 Properties:
 
-- Title
 - Description
-- Date
 - Priority
 
 Rules:
 
-- Title is required
+- Description is required
 - 100 characters max
 - Date is required
 
@@ -21,11 +19,27 @@ Rules:
 
 ## RF-002
 
-Must be posible to search a task by Id.
+Get a list of all tasks added in the current day using a descendant added order.
+
+GET /tasks/today
 
 ---
 
 ## RF-003
+
+Must be posible to search a task by Id.
+
+---
+
+## RF-004
+
+Get a list of all tasks in descendant order.
+
+GET /tasks
+
+---
+
+## RF-005
 
 A search by partial Title coincidence must exist.
 
@@ -38,14 +52,5 @@ Should return:
 - Homework
 - Home repairs
 
-## RF-004
 
-Get a list of all tasks in descendant order.
 
-GET /tasks
-
-## RF-005
-
-Get a list of all tasks added in the day with descendant added order.
-
-GET /tasks/today
